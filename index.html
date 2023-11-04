@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Up Zone | Beli Game Voucher Produk Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo"><a href="#">Top Up Zone</a></div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="#">Masuk</a></li>
+        <li><a href="#">Daftar</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <div class="banner"></div>
+  <div class="about">
+  <div class="content">
+    <div class="caption">Promo</div>
+      <h2>Saat ini</h2>
+    <div class="slider-frame">
+      <div class="slide-images">
+        <div class="img-container">
+          <img src="Assets/Ads 1.webp">
+        </div>
+        <div class="img-container">
+          <img src="Assets/Ads 2.webp">
+        </div>
+        <div class="img-container">
+          <img src="Assets/Ads 3.webp">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="caption"> Game Populer </div>
+      <h2>Trending Sekarang</h2>
+    </div>
+  </div>
+
+  <section class="products">
+    <div class="all-products">
+      <div class="product">
+        <img src="Assets/Genshin Impact icon.webp">
+      <div class="product-info">
+        <h4 class="product-title">Genshin Impact</h4>
+        <a class="product-btn" href="#">Top Up</a>
+      </div>
+    </div>
+
+      <div class="product">
+          <img src="Assets/Mobile Legends icon.webp">
+        <div class="product-info">
+          <h4 class="product-title">Mobile Legends</h4>
+          <a class="product-btn" href="#">Top Up</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="Assets/Steam icon.webp">
+        <div class="product-info">
+          <h4 class="product-title">Steam Wallet</h4>
+          <a class="product-btn" href="#">Top Up</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="Assets/Valorant icon.webp">
+        <div class="product-info">
+          <h4 class="product-title">Valorant</h4>
+          <a class="product-btn" href="#">Top Up</a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <div class="content">
+    <div class="caption">Gallery</div>
+      <h2>E-sports Tournament</h2>
+
+    <div class="image-grid">
+      <img class="image-grid-col-2 image-grid-row-2" src="Assets/Grid 1.jpg_large" alt="esports-1">
+      <img src="Assets/Grid 2.webp" alt="esports-2">
+      <img src="Assets/Grid 3.jpeg" alt="esports-3">
+      <img src="Assets/Grid 4.webp" alt="esports-4">
+      <img src="Assets/Grid 5.jpeg" alt="esports-5">
+    </div>
+
+    <div class="content">
+      <div class="caption">Dukungan Pelayanan</div>
+        <h2>Hubungi Kami</h2>
+
+    <section id="form-section">
+      <form action="#">
+          <p>Bantu kami meningkatkan layanan kami dengan berpartisipasi dalam survei singkat ini:</p>
+          <fieldset>
+            <legend>Data Anda</legend>
+              <div>
+                <label for="fullName">Nama Lengkap:</label>
+                <input id="fullName" type="text" required />
+              </div>
+    
+              <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email" required />
+              </div>
+    
+              <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="trip-start" value="2023-11-03">
+              </div>
+    
+              <div>
+                <p>Apakah anda kebangsaan Indonesia?</p>
+                <input type="radio" id="yes" name="isIndonesia" value="Male" />
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="isIndonesia" value="Female" />
+                <label for="no">No</label>
+              </div>
+          </fieldset>
+          <fieldset>
+            <legend>Informasi Tambahan</legend>
+              <div>
+                <p>Menurut anda, berapa nilai kepuasan anda terhadap layanan kami?</p>
+                <input
+                  id="cute"
+                  type="checkbox"
+                  name="personality"
+                  value="cute"
+                />
+                <label for="cute">Sangat Buruk</label>
+                <input
+                  id="adorable"
+                  type="checkbox"
+                  name="personality"
+                  value="adorable"
+                />
+                <label for="adorable">Netral</label>
+                  <input
+                    id="beautiful"
+                    type="checkbox"
+                    name="personality"
+                    value="beautiful"
+                  />
+                <label for="beautiful">Sangat Baik</label>
+              </div>
+              <div>
+                <p>Komen anda:</p>
+                <textarea rows="3"></textarea>
+              </div>
+              <div>
+                <p>Silahkan unggah screenshot (optional)</p>
+                <input
+                  type="file"
+                  id="photo"
+                  name="myPenguinPhoto"
+                  required
+                  accept="image/png, image/jpeg"
+                />
+              </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+      </form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
