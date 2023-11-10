@@ -44,7 +44,7 @@ Check out my self created website below:
 5.  Wait until deployment completed
 6.  Done, and will auto deploy if changes occur to the GitHub repository
 
-<p align="center"><img src="./assets/collage-1.jpg" alt="Tutorial Sign Up Vercel"></p>
+![alt text](https://github.com/revou-fsse-3/Module-2-Jeong/blob/main/Assets/collage-1.jpg?raw=true)
 
 **How to connect your custom domain and DNS**
 
@@ -60,11 +60,11 @@ Check out my self created website below:
 10. Wait for the domain to process, it takes around 3-5 minutes
 11. Done, you can now open your project with your custom domain
 
-<p align="center"><img src="./assets/collage-2.jpg" alt="Buy Custom Domain"></p>
+![alt text](https://github.com/revou-fsse-3/Module-2-Jeong/blob/main/Assets/collage-2.jpg?raw=true)
 
-<p align="center"><img src="./assets/collage-3.jpg" alt="Set Up Custom Domain"></p>
+![alt text](https://github.com/revou-fsse-3/Module-2-Jeong/blob/main/Assets/collage-3.jpg?raw=true)
 
-<p align="center"><img src="./assets/Top Up Zone Web.png" alt="Deployment Success"></p>
+![alt text](https://github.com/revou-fsse-3/Module-2-Jeong/blob/main/Assets/Top%20Up%20Zone%20Web.png?raw=true)
 
 ---
 
